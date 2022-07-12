@@ -1,7 +1,7 @@
 const net = require('net')
 const readline = require('readline')
 
-const PORT = 4000
+const PORT = 2000
 const LOCALHOST = '127.0.0.1'
 
 // This function create a interface beetwen a input and a output

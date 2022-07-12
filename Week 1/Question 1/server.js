@@ -27,7 +27,6 @@ const handlerConnection = socket => {
         socket.write(line);
         socket.pipe(socket);
     })
-
 }
 
 // Creating server instance 
