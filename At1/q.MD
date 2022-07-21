@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=R84rTfBMaoU
 ---
 2. Baseado no exemplo anterior, crie uma nova versão para o chat, desta vez com suporte a conexão simultânea de vários clientes. Agora o servidor não necessita mais receber texto do console. Ele será apenas o mediador das mensagens entre os vários clientes conectados.   
 Alguns requisitos:  
-- 2.1. O servidor deve pedir ao usuário cliente para digitar um nome de modo que as mensagens decada usuário possam ser identificadas.  
+- 2.1. O servidor deve pedir ao usuário cliente para digitar um nome de modo que as mensagens de cada usuário possam ser identificadas.  
 - 2.2 As mensagens enviadas por um cliente são replicadas para todos os outros clientes.  
 
 > **Exemplo hipotético de conversação:**
