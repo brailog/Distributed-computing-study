@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package protocalculetor;
+
+service Calculator {
+    rpc calculator(CalculatorDisplay) returns (CalculatorDisplay);
+}
+
+message CalculatorDisplay {
+    int32 number1 = 2;
+    int32 number2 = 3;
+    string operation = 4;
+    int32 result = 5;
+}
